@@ -1,0 +1,54 @@
+1. Factory Pattern - 
+In Factory pattern, we create object without exposing the  creation logic to the client and refer to newly 
+created object using a common interface(in this example we have Shape interface).
+
+Steps -
+a. Create interface(in this case shape).
+b. Create classes(square,rectangle,circle)implements interface.
+c. Create ShapeFactory class with method - public Shape getShape(String shapeType) and according to type return 
+   instance of that particular shape type(example : new Circle(),etc..).
+
+
+
+	
+2. Abstract Factory Pattern-
+Abstract Factory patterns work around a super-factory which creates other factories.
+This factory is also called as factory of factories. In Abstract Factory pattern an interface is responsible for creating a factory of related objects without explicitly specifying their classes. 
+Each generated factory can give the objects as per the Factory pattern.
+
+Steps-
+a.Create interface shape
+b.Create concrete classes implementing interface(RoundedRectangle,RoundedSqure,Square,Rectangle)
+c.Create an Abstract class to get factories for Normal and Rounded Shape Objects.
+(Abstract Factory=>abstract Shape getShape())
+d.Create Factory classes extending AbstractFactory to generate object of concrete class based on given information.	
+(ShapeFactory extends Abstract Factory=> getShape(String shapeType))
+e.Create a Factory generator/producer class to get factories by passing an information such as Shape
+f.AbstractFactoryPatternDemo (main method)
+
+
+
+
+3.Singelton Pattern- This pattern involves a single class which is responsible to create an object 
+while making sure that only single object gets created. This class provides a way to access its only
+object which can be accessed directly without need to instantiate the object of the class.
+
+Steps-
+a. Create a Singleton class and make the constructor as private
+and static instance of itself.
+b. main method
+
+
+
+4. Builder Pattern
+Builder pattern builds a complex object using simple objects and using a step by step approach.
+A Builder class builds the final object step by step. This builder is independent of other objects.
+Advantages - 
+	a.It provides clear separation between the construction and representation of an object.
+	b.It provides better control over construction process.
+	c.It supports to change the internal representation of objects.
+	
+	
+
+5.
+Cloning an objects
