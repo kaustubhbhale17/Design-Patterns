@@ -1,4 +1,4 @@
-package com.creation.builder;
+package com.creational.builder;
 
 public class PhoneBuilder {
 

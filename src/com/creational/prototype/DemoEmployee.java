@@ -1,4 +1,4 @@
-package com.creation.prototype;
+package com.creational.prototype;
 
 public class DemoEmployee {
 	public static void main(String[] args) {

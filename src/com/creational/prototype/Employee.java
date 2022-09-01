@@ -1,4 +1,4 @@
-package com.creation.prototype;
+package com.creational.prototype;
 
 public class Employee implements Prototype{
 	private int eid;

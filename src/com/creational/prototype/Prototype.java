@@ -1,4 +1,4 @@
-package com.creation.prototype;
+package com.creational.prototype;
 
 public interface Prototype {
 	public Prototype getClone();

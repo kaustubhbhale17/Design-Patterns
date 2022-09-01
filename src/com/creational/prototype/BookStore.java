@@ -1,4 +1,4 @@
-package com.creation.prototype;
+package com.creational.prototype;
 
 import java.util.ArrayList;
 import java.util.List;
